@@ -1,0 +1,54 @@
+.container{
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+.wrapper {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+ 
+  
+}
+
+.about{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.about > .image{
+  display: flex;
+  width: 50%;
+  height: 450px;
+}
+
+.text{
+  
+  gap: 2rem;
+    
+    
+}
+
+.text > h2{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+  color: #333;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  
+  
+  
+}
+
+
+.about >p{
+  color:#4a4a4a;
+  text-align: justify;
+  font-style: italic;
+
+}
